@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: amdgpu-firmware-extra
-Source: https://github.com/Nitrux/amdgpu-firmware-extra.git
+Upstream-Name: linux-firmware
+Source: https://github.com/Nitrux/linux-firmware.git
 
 Files: *
 Copyright: 2017 Uri Herrera <uri_herrera@nxos.org>
