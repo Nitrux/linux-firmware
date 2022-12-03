@@ -1,0 +1,20 @@
+Source: linux-firmware
+Section: misc
+Priority: optional
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://repo.radeon.com/amdgpu/
+
+
+Package: amdgpu-firmware-extra
+Architecture: amd64
+Recommends: firmware-sof-signed
+Conflicts: atmel-firmware
+Breaks: amd64-microcode (<= 3.20220411.1ubuntu1), linux-firmware-raspi2 (<= 1.20190819-0ubuntu2), linux-firmware-snapdragon (<= 1.2-0ubuntu1)
+Replaces: atmel-firmware, linux-firmware-snapdragon (<= 1.2-0ubuntu1), linux-restricted-common
+Provides: atmel-firmware
+Section: misc
+Priority: optional
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
