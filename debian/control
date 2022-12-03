@@ -9,6 +9,6 @@ Homepage: http://repo.radeon.com/amdgpu/
 
 Package: linux-firmware-nitrux
 Architecture: all
-Replaces: linux-firmware
+Replaces: linux-firmware, firmware-brcm80211
 Description: Firmware for Linux kernel drivers
  This package provides firmware used by Linux kernel drivers.

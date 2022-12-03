@@ -1,3 +1,9 @@
+linux-firmware-nitrux (0.0.3)  nitrux; urgency=medium
+
+  * Add files.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 02 Dev 2022 21:29:00 -0500
+
 linux-firmware-nitrux (0.0.2)  nitrux; urgency=medium
 
   * Change package name.
