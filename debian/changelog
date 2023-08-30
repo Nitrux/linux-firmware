@@ -1,8 +1,8 @@
-linux-firmware-nitrux (0.0.7)  nitrux; urgency=medium
+linux-firmware-nitrux (0.0.8)  nitrux; urgency=medium
 
-  * Update files.
+  * Remove files from this package that exist in other firmware packages.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Tue, 29 Aug 2023 19:03:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 29 Aug 2023 19:43:00 -0500
 
 linux-firmware-nitrux (0.0.6)  nitrux; urgency=medium
 
