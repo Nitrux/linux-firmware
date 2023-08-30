@@ -1,3 +1,9 @@
+linux-firmware-nitrux (0.0.7)  nitrux; urgency=medium
+
+  * Update files.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 29 Aug 2023 19:03:00 -0500
+
 linux-firmware-nitrux (0.0.6)  nitrux; urgency=medium
 
   * Add files.
