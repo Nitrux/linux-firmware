@@ -269,3 +269,4 @@ lib/firmware/rtw88/README
 lib/firmware/rtw88/README
 lib/firmware/brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt
 *.txt
+/lib/firmware/amdtee
