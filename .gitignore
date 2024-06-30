@@ -272,6 +272,11 @@ lib/firmware/brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt
 /lib/firmware/amdtee
 /lib/firmware/amd-ucode
 /lib/firmware/amd
+/lib/firmware/amdgpu
+/lib/firmware/radeon
+/lib/firmware/r128
 lib/firmware/LICENSE.amdisp
 lib/firmware/wfx/LICENCE.wf200
 lib/firmware/usbdux/Makefile_dux
+lib/firmware/.codespell.cfg
+lib/firmware/.codespell.cfg
