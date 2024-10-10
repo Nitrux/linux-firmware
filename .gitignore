@@ -280,3 +280,6 @@ lib/firmware/wfx/LICENCE.wf200
 lib/firmware/usbdux/Makefile_dux
 lib/firmware/.codespell.cfg
 lib/firmware/.codespell.cfg
+lib/firmware/Apache-2
+lib/firmware/LICENCE.ish
+*.jsn
