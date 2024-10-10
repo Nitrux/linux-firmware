@@ -1,4 +1,4 @@
-jlinux-firmware-nitrux (0.2.3)  nitrux; urgency=medium
+linux-firmware-nitrux (0.2.3)  nitrux; urgency=medium
 
   * Add files up until commit c01656f9. 
 
