@@ -283,3 +283,4 @@ lib/firmware/.codespell.cfg
 lib/firmware/Apache-2
 lib/firmware/LICENCE.ish
 *.jsn
+*.sh
