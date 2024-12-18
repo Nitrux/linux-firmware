@@ -21,6 +21,7 @@
 lib/firmware/.codespell.cfg
 lib/firmware/.directory
 lib/firmware/.editorconfig
+lib/firmware/.gitignore
 lib/firmware/Apache-2
 lib/firmware/Dockerfile
 lib/firmware/GPL-2
