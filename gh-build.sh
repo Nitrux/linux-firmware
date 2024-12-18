@@ -15,8 +15,6 @@ files=(
     "README.md"
     "README"
     "ChangeLog"
-    "*.asc"
-    "*.asm"
     "*.c"
     "*.cmake"
     "*.codespell.cfg"
