@@ -8,10 +8,10 @@
 *.sh
 *.txt
 /.project
-lib/firmware/amd
-lib/firmware/amd-ucode
-lib/firmware/amdtee
 lib/firmware/.codespell.cfg
+lib/firmware/.editorconfig
+lib/firmware/.gitlab-ci.yml
+lib/firmware/.pre-commit-config.yaml
 lib/firmware/Apache-2
 lib/firmware/Dockerfile
 lib/firmware/GPL-2
@@ -106,6 +106,9 @@ lib/firmware/LICENSE.xe
 lib/firmware/Makefile
 lib/firmware/README.md
 lib/firmware/WHENCE
+lib/firmware/amd
+lib/firmware/amd-ucode
+lib/firmware/amdtee
 lib/firmware/ar3k/1020200/PS_ASIC.pst
 lib/firmware/ar3k/1020200/RamPatch.txt
 lib/firmware/ar3k/1020200/ar3kbdaddr.pst
