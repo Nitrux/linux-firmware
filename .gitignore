@@ -11,6 +11,8 @@
 *.yaml
 *.yml
 *LICENCE.*
+*LICENSE.*
+*LICENCE*
 *Makefile*
 *NOTICE.txt
 *Notice.txt
