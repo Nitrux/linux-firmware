@@ -1,3 +1,9 @@
+linux-firmware-nitrux (0.2.8)  nitrux; urgency=medium
+
+  * Remove lib/firmware/intel it will be a separate package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 18 Dec 2024 17:46:00 -0500
+
 linux-firmware-nitrux (0.2.7)  nitrux; urgency=medium
 
   * Don't remove .asc and .asm files.

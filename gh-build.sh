@@ -44,6 +44,7 @@ directories=(
     "lib/firmware/brcm"
     "lib/firmware/carl9170fw"
     "lib/firmware/cirrus"
+    "lib/firmware/intel/"
     "lib/firmware/nvidia"
     "lib/firmware/r128"
     "lib/firmware/radeon"
