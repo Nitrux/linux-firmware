@@ -6,7 +6,7 @@ set -x
 apt -qq update
 apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 
-### Remove files and directories fomr upstream source.
+### Remove these files and directories fomr upstream source.
 files=(
     "*.asc" "*.asm" "*.c" "*.cmake" ".directory" "*.diff" "*.h" "*.py" "*.sh" "*.yaml" "*.yml"
 
@@ -15,7 +15,6 @@ files=(
     "*[Nn][Oo][Tt][Ii][Cc][Ee]*.txt"
     "*WHENCE*"
 
-    "*iwlwifi-*"
     "lib/firmware/.codespell.cfg"
     "lib/firmware/.editorconfig"
     "lib/firmware/.gitignore"
@@ -26,8 +25,6 @@ files=(
     "lib/firmware/README.md"
     "lib/firmware/amd-ucode/README"
     "lib/firmware/atusb/ChangeLog"
-    "lib/firmware/av7110/Boot.S"
-    "lib/firmware/av7110/Makefile"
     "lib/firmware/brcm/brcmfmac43340-sdio.Insyde-VESPA2.txt"
     "lib/firmware/brcm/brcmfmac43362-sdio.ASUSTeK COMPUTER INC.-ME176C.txt"
     "lib/firmware/brcm/brcmfmac43430-sdio.ilife-S806.txt"
@@ -37,6 +34,8 @@ files=(
     "lib/firmware/contrib/templates/debian.copyright"
     "lib/firmware/contrib/templates/rpm.spec"
     "lib/firmware/isci/README"
+
+    "*iwlwifi-*"
 )
 
 
