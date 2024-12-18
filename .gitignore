@@ -18,6 +18,7 @@
 *Notice.txt
 *WHENCE*
 *iwlwifi-*
+*.directory*
 lib/firmware/.codespell.cfg
 lib/firmware/.directory
 lib/firmware/.editorconfig
