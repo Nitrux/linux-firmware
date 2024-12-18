@@ -38,7 +38,6 @@ files=(
     "*iwlwifi-*"
 )
 
-
 directories=(
     "lib/firmware/amd"
     "lib/firmware/amd-ucode"
