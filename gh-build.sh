@@ -22,9 +22,9 @@ files=(
     "*.yml"
     ".directory"
     ".gitignore"
-    "*[Ll][Ii][Cc][Ee][Nn][Cc][Ee]*"
     "*Makefile*"
-    "*[Nn][Oo][Tt][Ii][Cc][Ee]*.txt"
+    "*LICENSE*"
+    "*Notice*"
     "*WHENCE*"
     "lib/firmware/Apache-2"
     "lib/firmware/Dockerfile"
@@ -56,16 +56,18 @@ directories=(
     "lib/firmware/carl9170fw"
     "lib/firmware/cirrus"
     "lib/firmware/nvidia"
+    "lib/firmware/r128"
+    "lib/firmware/radeon"
 )
 
 echo "Removing files..."
 for file in "${files[@]}"; do
-    find . -type f \( -name "${file}" -o -path "${file}" \) -exec rm -f {} +
+    find . -type f -name "$file" -exec rm -f {} \; 2>/dev/null
 done
 
 echo "Removing directories..."
 for dir in "${directories[@]}"; do
-    rm -rf "$dir"
+    rm -rf "$dir" 2>/dev/null
 done
 
 echo "Cleanup complete."
