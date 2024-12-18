@@ -108,6 +108,7 @@ lib/firmware/README.md
 lib/firmware/WHENCE
 lib/firmware/amd
 lib/firmware/amd-ucode
+lib/firmware/amdgpu
 lib/firmware/amdtee
 lib/firmware/ar3k/1020200/PS_ASIC.pst
 lib/firmware/ar3k/1020200/RamPatch.txt
@@ -279,6 +280,8 @@ lib/firmware/keyspan_pda/Makefile
 lib/firmware/keyspan_pda/keyspan_pda.S
 lib/firmware/keyspan_pda/xircom_pgs.S
 lib/firmware/qcom/NOTICE.txt
+lib/firmware/r128
+lib/firmware/radeon
 lib/firmware/rtw88/README
 lib/firmware/usbdux/Makefile_dux
 lib/firmware/usbdux/fx2-include.asm
