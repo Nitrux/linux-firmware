@@ -15,6 +15,7 @@
 *NOTICE.txt
 *Notice.txt
 *WHENCE*
+*iwlwifi-*
 lib/firmware/.codespell.cfg
 lib/firmware/.directory
 lib/firmware/.editorconfig
@@ -41,9 +42,10 @@ lib/firmware/isci/README
 ###############
 /lib/firmware/amd
 /lib/firmware/amd-ucode
+/lib/firmware/amdgpu
 /lib/firmware/amdtee
-/lib/firmware/carl9170fw
-/lib/firmware/nvidia
 /lib/firmware/ar3k
-/lib/firmware/cirrus
 /lib/firmware/brcm
+/lib/firmware/carl9170fw
+/lib/firmware/cirrus
+/lib/firmware/nvidia
