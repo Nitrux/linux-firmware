@@ -284,3 +284,5 @@ lib/firmware/Apache-2
 lib/firmware/LICENCE.ish
 *.jsn
 *.sh
+lib/firmware/LICENSE
+lib/firmware/LICENSE.amdnpu
