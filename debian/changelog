@@ -1,8 +1,9 @@
-linux-firmware-nitrux (0.2.5)  nitrux; urgency=medium
+linux-firmware-nitrux (0.2.5-1)  nitrux; urgency=medium
 
   * Add files up until commit 3f227859. 
+  * Add some directories to gitignore because they will be separate packages.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Wed, 18 Dec 2024 13:31:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 18 Dec 2024 14:58:00 -0500
 
 linux-firmware-nitrux (0.2.4)  nitrux; urgency=medium
 
