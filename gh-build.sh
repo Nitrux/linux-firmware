@@ -8,16 +8,24 @@ apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 
 ### Remove these files and directories fomr upstream source.
 files=(
-    "*.asc" "*.asm" "*.c" "*.cmake" ".directory" "*.diff" "*.h" "*.py" "*.sh" "*.yaml" "*.yml"
-
+    "*.asc"
+    "*.asm"
+    "*.c"
+    "*.cmake"
+    "*.codespell.cfg"
+    "*.diff"
+    "*.editorconfig"
+    "*.h"
+    "*.py"
+    "*.sh"
+    "*.yaml"
+    "*.yml"
+    ".directory"
+    ".gitignore"
     "*[Ll][Ii][Cc][Ee][Nn][Cc][Ee]*"
     "*Makefile*"
     "*[Nn][Oo][Tt][Ii][Cc][Ee]*.txt"
     "*WHENCE*"
-
-    "lib/firmware/.codespell.cfg"
-    "lib/firmware/.editorconfig"
-    "lib/firmware/.gitignore"
     "lib/firmware/Apache-2"
     "lib/firmware/Dockerfile"
     "lib/firmware/GPL-2"
@@ -34,7 +42,6 @@ files=(
     "lib/firmware/contrib/templates/debian.copyright"
     "lib/firmware/contrib/templates/rpm.spec"
     "lib/firmware/isci/README"
-
     "*iwlwifi-*"
 )
 
@@ -53,7 +60,7 @@ directories=(
 
 echo "Removing files..."
 for file in "${files[@]}"; do
-    find . -type f -name "$file" -exec rm -f {} +
+    find . -type f \( -name "${file}" -o -path "${file}" \) -exec rm -f {} +
 done
 
 echo "Removing directories..."

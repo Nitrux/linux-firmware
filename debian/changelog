@@ -1,3 +1,11 @@
+linux-firmware-nitrux (0.2.6)  nitrux; urgency=medium
+
+  * Add files up until commit 3f227859.
+  * Delete unwanted files and directories from this package.
+  * Fix URl in debian/control.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 18 Dec 2024 16:05:00 -0500
+
 linux-firmware-nitrux (0.2.5-1)  nitrux; urgency=medium
 
   * Add files up until commit 3f227859. 
