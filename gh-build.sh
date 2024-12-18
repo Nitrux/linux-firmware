@@ -8,6 +8,13 @@ apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 
 ### Remove these files and directories fomr upstream source.
 files=(
+    "Apache-2"
+    "Dockerfile"
+    "GPL-2"
+    "GPL-3"
+    "README.md"
+    "README"
+    "ChangeLog"
     "*.asc"
     "*.asm"
     "*.c"
@@ -26,22 +33,6 @@ files=(
     "*LICENSE*"
     "*Notice*"
     "*WHENCE*"
-    "lib/firmware/Apache-2"
-    "lib/firmware/Dockerfile"
-    "lib/firmware/GPL-2"
-    "lib/firmware/GPL-3"
-    "lib/firmware/README.md"
-    "lib/firmware/amd-ucode/README"
-    "lib/firmware/atusb/ChangeLog"
-    "lib/firmware/brcm/brcmfmac43340-sdio.Insyde-VESPA2.txt"
-    "lib/firmware/brcm/brcmfmac43362-sdio.ASUSTeK COMPUTER INC.-ME176C.txt"
-    "lib/firmware/brcm/brcmfmac43430-sdio.ilife-S806.txt"
-    "lib/firmware/brcm/brcmfmac4354-sdio.nvidia,p2371-2180.txt"
-    "lib/firmware/contrib/templates/debian.changelog"
-    "lib/firmware/contrib/templates/debian.control"
-    "lib/firmware/contrib/templates/debian.copyright"
-    "lib/firmware/contrib/templates/rpm.spec"
-    "lib/firmware/isci/README"
     "*iwlwifi-*"
 )
 
