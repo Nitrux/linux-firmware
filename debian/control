@@ -9,6 +9,7 @@ Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmwar
 
 Package: linux-firmware-nitrux
 Architecture: all
+Conflicts: firmware-ath9k-htc, firmware-atheros
 Replaces: linux-firmware, firmware-brcm80211
 Description: Firmware for Linux kernel drivers
  This package provides firmware used by Linux kernel drivers.
