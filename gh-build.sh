@@ -72,6 +72,7 @@ directories=(
     "lib/firmware/rtl_nic"
     "lib/firmware/rtlwifi"
     "lib/firmware/rtw88"
+    "lib/firmware/rtw89"
     "lib/firmware/xe"
 )
 

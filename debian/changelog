@@ -1,3 +1,9 @@
+linux-firmware-nitrux (0.2.9)  nitrux; urgency=medium
+
+  * Remove lib/firmware/rtw89 it will be a separate package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 10 Dec 2024 05:24:00 -0500
+
 linux-firmware-nitrux (0.2.8)  nitrux; urgency=medium
 
   * Remove lib/firmware/intel it will be a separate package.
