@@ -9,6 +9,6 @@ Homepage: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmwar
 
 Package: linux-firmware-nitrux
 Architecture: all
-Replaces: linux-firmware, firmware-brcm80211
+Replaces: linux-firmware
 Description: Firmware for Linux kernel drivers
  This package provides firmware used by Linux kernel drivers.
