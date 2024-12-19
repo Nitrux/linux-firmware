@@ -38,6 +38,12 @@ files=(
     "*ar9170*"
     "*ar9271*"
     "*ar5523*"
+    "*rt2561*"
+    "*rt2661*"
+    "*rt2860*"
+    "*rt2870*"
+    "*rt73*"
+    "*rt2860*"
 )
 
 directories=(
@@ -56,10 +62,16 @@ directories=(
     "lib/firmware/cirrus"
     "lib/firmware/i915"
     "lib/firmware/intel"
+    "lib/firmware/mediatek"
     "lib/firmware/nvidia"
     "lib/firmware/qca"
     "lib/firmware/r128"
     "lib/firmware/radeon"
+    "lib/firmware/realtek"
+    "lib/firmware/rtl_bt"
+    "lib/firmware/rtl_nic"
+    "lib/firmware/rtlwifi"
+    "lib/firmware/rtw88"
     "lib/firmware/xe"
 )
 
