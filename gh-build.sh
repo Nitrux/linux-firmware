@@ -6,7 +6,7 @@ set -x
 apt -qq update
 apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 
-### Remove these files and directories fomr upstream source.
+### Remove these files and directories from upstream source.
 files=(
     "Apache-2"
     "Dockerfile"
@@ -44,10 +44,12 @@ directories=(
     "lib/firmware/brcm"
     "lib/firmware/carl9170fw"
     "lib/firmware/cirrus"
-    "lib/firmware/intel/"
+    "lib/firmware/i915"
+    "lib/firmware/intel"
     "lib/firmware/nvidia"
     "lib/firmware/r128"
     "lib/firmware/radeon"
+    "lib/firmware/xe"
 )
 
 echo "Removing files..."
