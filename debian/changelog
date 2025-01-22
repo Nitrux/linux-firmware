@@ -1,3 +1,9 @@
+linux-firmware-nitrux (0.3.0)  nitrux; urgency=medium
+
+  * Add files up to commit 7e8c2868.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Wed, 22 Jan 2025 10:33:00 -0500
+
 linux-firmware-nitrux (0.2.9)  nitrux; urgency=medium
 
   * Remove lib/firmware/rtw89 it will be a separate package.
