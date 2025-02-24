@@ -25,6 +25,7 @@ files=(
     "*.sh"
     "*.yaml"
     "*.yml"
+    "*.txt"
     ".directory"
     ".gitignore"
     "*Makefile*"
