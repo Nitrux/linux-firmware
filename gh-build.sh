@@ -46,6 +46,7 @@ files=(
     "*rt2870*"
     "*rt73*"
     "*rt2860*"
+    "*ath*"
 )
 
 directories=(
