@@ -30,6 +30,7 @@ files=(
     ".gitignore"
     "*Makefile*"
     "*LICENSE*"
+    "*LICENCE*"
     "*Notice*"
     "*WHENCE*"
     "*iwlwifi-*"

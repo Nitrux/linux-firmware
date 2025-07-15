@@ -1,3 +1,9 @@
+linux-firmware-nitrux (0.3.4)  nitrux; urgency=medium
+
+  * Add files up to commit ecdbd2b8.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Mon, 14 Jul 2025 19:21:00 -0500
+
 linux-firmware-nitrux (0.3.3)  nitrux; urgency=medium
 
   * Add files up to commit e61b8981.
