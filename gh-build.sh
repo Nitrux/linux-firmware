@@ -40,7 +40,7 @@ files=(
     "*rt3290*"
     "*rt73*"
     "*qat_*"
-    "*wil62610*"
+    "*wil6210*"
     ".directory"
     ".gitignore"
     "Apache-2"
